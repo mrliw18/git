@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        :root{
+        --blue-base:#a9d6cb;
+        --back-base:#FAF8F5;
+        --color-button:#264065;
+        --color-text:#909090;
+        }
+       *{
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+        }
+        .hero-section{
+        width: 90%;
+        height: 820px;
+        background-color: var(--back-base);
+
+
+        }
+        .hero-section .back{
+        width: 635px;
+        height: 820px;
+        background-color: var(--blue-base);
+        position: absolute;
+        right: 0;
+
+        }
+        .hero-section .back img{
+            position: relative;
+            top: 70px;
+            right: 100px;
+
+        }
+        .hero-section .navbar{
+            position: relative;
+            top: 49px;
+            z-index: 1;
+            display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        }
+    
+        .hero-section .navbar .menu ul{
+            list-style: none;
+        }
+        .hero-section .navbar .menu ul li{
+            display: inline-block;
+            margin-left: 64px;
+        }
+        .hero-section .navbar .menu ul li a{
+            text-decoration: none;
+        color: #264065;
+            font-size: 18px;
+        }
+        .hero-section .navbar .button{
+        width: 400px;   
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .hero-section .navbar .button .icon{
+    width: 96px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .hero-section .navbar .button .log{
+            width: 253px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .hero-section .navbar .button .log a{
+            color: #264065;
+            font-size: 18px;
+        }
+        .hero-section .navbar .button .log a#signup{
+        color: #fff;
+        background-color: #264065;
+        padding: 16px 40px;
+        border-radius: 32px;
+        text-decoration: none;
+        
+
+        }
+        .hero {
+            display: flex;
+            justify-content: space-around;
+        }
+        .hero .text {
+           width: 50%;
+           height: 388px;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+            margin-top: 200px;
+            margin-left: 160px;
+
+        }
+        .hero .text h1 {
+            width: 800px;
+            color: var(--color-button);
+            font-size: 64px;
+            font-weight: bold;
+        }
+        .hero .text p {
+            width: 760px;
+            font-size: 24px;
+            color: var(--color-text);
+           
+        }
+        .hero .text .button {
+            width: 452px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .hero .text .button a {
+            text-decoration: none;
+            font-size: 16px;
+            color: var(--color-button);
+        }
+        .hero .text .button a#book {
+            color:#fff;
+            background-color: var(--color-button);
+            padding: 16px 40px;
+           border-radius: 32px;
+        }
+        .hero .text .button #btn{
+            width: 200px;
+            display: flex;
+            border-radius: 100%;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .hero .text .button .cir {
+            width: 48px;
+        height: 48px;
+        border-radius: 100%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        }
+        .hero .text .button span {
+            color: var(--color-button);
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        .hero .image {
+            width: 50%;
+            position: relative;
+        }
+        .hero .image img {
+            width: 1200px;
+            height: 900px;
+            position: relative;
+            right: 400px;
+
+        }
+        .hero-section .category {
+            
+            width: 643px;
+            height: 284px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 16px;
+            background-color: #fff;
+            opacity: 80%;
+            position: relative;
+            left: 160px;
+            top: -220px;
+
+        }
+        .hero-section .category .item {
+            width: 145px;
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .hero-section .category .item .img {
+            width: 72px;
+            height: 72px;
+            border-radius: 100%;
+            background-color: var(--blue-base);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero-section .category .item h3 {
+            font-size: 36px;
+            color: var(--color-button);
+            text-align: center;
+
+        }
+        .hero-section .category .item span {
+            font-size: 18px;
+            text-align: center;
+            color: #909090;
+
+        }
+        .hero-section .textbox{
+            width: 405px;
+            height: 247px;
+            background-color: #fff;
+            border-radius: 16px;
+            opacity: 50%;
+
+        }
+        .hero-section .textbox .iner{
+            padding: 24px;
+        }
+        .hero-section .textbox#box1{
+            position: absolute;
+            top: 435px;
+            right: 66px;
+        }
+        .hero-section .textbox#box2{
+            position: absolute;
+            top: 747px;
+            right: 206px;
+            opacity: 70%;
+        }
+        .hero-section .textbox .img{}
+        .hero-section .textbox h4{
+            font-size: 18px;
+            color: var(--color-button);
+
+        }
+        .hero-section .textbox p{
+            font-size: 18px;
+            color: #070707;
+
+        }
+
+
+
+
+
